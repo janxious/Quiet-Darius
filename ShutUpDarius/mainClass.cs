@@ -7,7 +7,7 @@ namespace ShutUpDarius
 {
     public static class BeQuietDarius
     {
-        public static int MinPilotReq = 2;
+        public static int MinPilotReq = 1000;
         public static void Init()
         {
             var harmony = HarmonyInstance.Create("Battletech.realitymachina.ShutUpDarius");
