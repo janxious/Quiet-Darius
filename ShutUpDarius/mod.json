@@ -13,7 +13,7 @@
   "ConflictsWith": [],
 
   "Settings": {
-    "warnAboutTrainablePilot": true,
+    "warnAboutTrainablePilots": true,
     "minimumPilotsNeedingTrainingForWarning": 2,
     "pilotSkillLevelForWhichWarningNotNecessary": 6,
     

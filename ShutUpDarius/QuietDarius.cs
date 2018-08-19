@@ -52,7 +52,7 @@ namespace ShutUpDarius
 
         static void Postfix(SimGameState __instance)
         {
-            if (!Core.ModSettings.WarnAboutTraining) return;
+            if (!Core.ModSettings.WarnAboutTrainablePilots) return;
 
             var pilotsToTrain = 0;
             var pilots = new List<Pilot>(__instance.PilotRoster) {__instance.Commander};

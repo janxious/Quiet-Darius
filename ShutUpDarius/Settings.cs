@@ -6,8 +6,8 @@ namespace ShutUpDarius
 {
     public class Settings
     {
-        public bool warnAboutTraining = true;
-        public bool WarnAboutTraining => warnAboutTraining;
+        public bool warnAboutTrainablePilots = true;
+        public bool WarnAboutTrainablePilots => warnAboutTrainablePilots;
 
         public int minimumPilotsNeedingTrainingForWarning = 2;
         public int MinimumPilotsNeedingTrainingForWarning => minimumPilotsNeedingTrainingForWarning;
